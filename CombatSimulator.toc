@@ -1,0 +1,35 @@
+## Interface: 100002
+## Version: 1.0.0
+## Title: CombatSimulator
+## Notes:
+## Author: Michael Peterson
+## SavedVariablesPerCharacter:
+## 18 January, 2023
+## Dependencies: WoWThreads
+
+Libs\Ace\LibStub\LibStub.lua
+Libs\Ace\CallbackHandler-1.0\CallbackHandler-1.0.xml   
+Libs\Ace\libdatabroker-1-1\LibDataBroker-1.1.lua
+Libs\Ace\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\Ace\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libs\Ace\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+Libs\Ace\AceAddon-3.0\AceAddon-3.0.xml
+Libs\Ace\AceConsole-3.0\AceConsole-3.0.xml
+Libs\Ace\AceDB-3.0\AceDB-3.0.xml
+#@end-no-lib-strip@
+
+## OptionalDeps: LibSharedMedia-3.0, LibDBIcon-1.0, LibDataBroker-1.1 
+
+##---------------------------------------------
+## Required / prerequisite files
+##---------------------------------------------
+SimCore.lua
+EnUS-CombatSimulator.lua
+Celu.lua
+FormatEvent.lua
+publisher.lua
+MainThread.lua
+
+##--------------------------------------------
+## UNIT UnitTests
+##--------------------------------------------
