@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------------
--- enUS.lua
+-- EnUS.lua
 -- AUTHOR: mtpeterson1948 at gmail dot com
--- ORIGINAL DATE: 28 December, 2018
+-- ORIGINAL DATE: 18 January, 2023
 ----------------------------------------------------------------------------------------
 
 local _, CombatSimulator = ...
@@ -30,5 +30,3 @@ if LOCALE == "enUS" then
 	L["PARAM_OUTOFRANGE"]		= "Invalid Parameter - Out-of-range."
 	L["PARAM_WRONGTYPE"]		= "Invalid Parameter - Wrong type."
 end
-
-print( L["ADDON_LOADED_MESSAGE"])
